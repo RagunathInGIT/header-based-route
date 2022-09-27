@@ -28,7 +28,7 @@ luarocks make *.rockspec
 ### Sample config
 
 curl --location --request POST 'http://localhost:8001/services/{service_name_or_service_id}/plugins' \
---data 'name=multi-header-based-route' \
+--data 'name=header-based-route' \
 --data 'config.default_host=customercare.free.beeceptor.com' \
 --data 'config.header_count=2' \
 --data 'config.operator=AND' \
